@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import FigmaLink from '~/components/widgets/FigmaLink/FigmaLink';
 import Hero from '~/components/widgets/Hero';
 
 import { SITE } from '~/config.js';
@@ -11,7 +12,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <Hero {...heroHome} />
+      <FigmaLink/>
     </>
   );
 }
