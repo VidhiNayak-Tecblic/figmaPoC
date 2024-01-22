@@ -14,7 +14,7 @@ const config: Config = {
         },
       },
       fontFamily: {
-        rubik: ['Rubik', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
       },
       fontWeight: {
         thin: '300',

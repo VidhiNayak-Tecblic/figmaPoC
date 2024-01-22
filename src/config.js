@@ -1,10 +1,10 @@
 module.exports.SITE = {
-  name: 'tecblic',
+  name: 'canvas',
 
-  origin: 'https://tecblic.com',
+  origin: 'https://canvas.com',
   basePathname: '/',
   trailingSlash: false,
 
-  title: 'tecblic',
-  description: 'tecblic description',
+  title: 'canvas',
+  description: 'canvas description',
 };

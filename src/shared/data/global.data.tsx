@@ -6,7 +6,7 @@ import { FooterProps, HeaderProps } from '../types';
 // export const announcementData: AnnouncementProps = {
 //   title: 'NEW',
 //   callToAction: {
-//     text: 'tecblic web app',
+//     text: 'canvas web app',
 //     href: 'https://nextjs.org/blog/next-14',
 //   },
 //   callToAction2: {
@@ -78,7 +78,7 @@ export const headerData: HeaderProps = {
 
 // Footer data
 export const footerData: FooterProps = {
-  title: 'tecblic',
+  title: 'canvas',
   links: [
     {
       label: 'Terms & Conditions',
@@ -135,7 +135,7 @@ export const footerData: FooterProps = {
   footNote: (
     <div className="mr-4 text-sm flex items-center gap-2">
       <div className="w-14">Logo</div>
-      <p className="mt-2"> Copyright © tecblic.com</p>
+      <p className="mt-2"> Copyright © canvas.com</p>
     </div>
   ),
 };

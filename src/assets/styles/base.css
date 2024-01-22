@@ -30,3 +30,7 @@
     @apply text-primary-500;
   }
 } */
+
+body {
+  font-family: 'Poppins', sans-serif !important;
+}

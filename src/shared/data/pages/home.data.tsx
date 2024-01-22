@@ -14,7 +14,7 @@ export const heroHome: HeroProps = {
     <>
       <span className="hidden md:inline">
         <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
-          tecblic
+          canvas
         </span>{' '}
         is a production ready template to start your new website using <em>Next.js</em> + <em>Tailwind CSS</em>.
       </span>{' '}
@@ -34,7 +34,7 @@ export const heroHome: HeroProps = {
   },
   image: {
     src: '',
-    alt: 'Hero tecblic',
+    alt: 'Hero canvas',
   },
 };
 
