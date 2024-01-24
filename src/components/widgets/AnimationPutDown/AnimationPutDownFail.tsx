@@ -5,7 +5,7 @@ import uploadMan from '~/assets/images/uploadMan.svg';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Image from 'next/image';
-import right from '~/assets/images/right.svg';
+import right from '~/assets/images/right.svg'; 
 import wrong from '~/assets/images/wrong.svg';
 
 export default function AnimationPutDownFail() {

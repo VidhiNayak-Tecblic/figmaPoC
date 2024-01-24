@@ -14,7 +14,7 @@ const Footer = () => {
                 {title}
               </a>
             </div>
-            <div className="text-muted text-sm">
+            <div className="text-muted text-sm"> 
               <ul className="mb-4 -ml-2 flex pl-2 md:order-1 md:mb-0">
                 {links &&
                   links.map(({ label, href }, index) => (

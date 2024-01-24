@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import Header from '../Header';
 import Image from 'next/image';
 import eye from '~/assets/images/eye.svg';
-import code from '~/assets/images/code.svg';
+import code from '~/assets/images/code.svg'; 
 import codeContent from '~/assets/images/codeContent.svg';
 import download from '~/assets/images/download.svg';
 import service1 from '~/assets/images/service1.svg';

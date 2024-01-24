@@ -12,7 +12,7 @@ export default function FigmaLink() {
 
   const handleInputChange = (event) => {
     const link = event.target.value;
-    setFigmaLink(link);
+    setFigmaLink(link); 
     // Validate the link (you can customize this validation according to your needs)
     setIsValidLink(isValidFigmaLink(link));
   };

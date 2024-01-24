@@ -14,3 +14,4 @@ const Hero = ({ title, subtitle, tagline, callToAction, callToAction2, image }: 
 };
 
 export default Hero;
+ 

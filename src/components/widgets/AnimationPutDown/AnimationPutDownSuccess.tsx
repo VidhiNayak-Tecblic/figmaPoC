@@ -9,7 +9,7 @@ import Image from 'next/image';
 import right from '~/assets/images/right.svg';
 import { useRouter } from 'next/navigation';
 
-export default function AnimationPutDownSuccess() {
+export default function AnimationPutDownSuccess() { 
   const router = useRouter();
 
   const showToast = () => {
