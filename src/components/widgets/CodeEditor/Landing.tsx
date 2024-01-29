@@ -100,29 +100,34 @@ export default function Landing() {
       data: formData,
     };
 
-    axios
-      .request(options)
-      .then(function (response) {
+    console.log(options);
+
+    try {
+      axios.request(options).then(function (response) {
         console.log('res.data', response.data);
         const token = response.data.token;
         checkStatus(token);
-      })
-      .catch((err) => {
-        let error = err.response ? err.response.data : err;
-        // get error status
-        let status = err.response.status;
-        console.log('status', status);
-        if (status === 429) {
-          console.log('too many requests', status);
-
-          showErrorToast(
-            `Quota of 100 requests exceeded for the Day! Please read the blog on freeCodeCamp to learn how to setup your own RAPID API Judge0!`,
-            10000,
-          );
-        }
-        setProcessing(false);
-        console.log('catch block...', error);
       });
+    } catch (error) {
+      console.log('catch block...', error);
+    }
+    // catch((err) => {
+    //   // let error = err.response ? err.response.data : err;
+    //   // // get error status
+    //   // console.log('err', err);
+    //   // console.log('error', error);
+    //   // let status = error.response.status;
+    //   // console.log('status', status);
+    //   // if (status === 429) {
+    //   //   console.log('too many requests', status);
+
+    //   //   showErrorToast(
+    //   //     `Quota of 100 requests exceeded for the Day! Please read the blog on freeCodeCamp to learn how to setup your own RAPID API Judge0!`,
+    //   //     10000,
+    //   //   );
+    //   // }
+    //   // setProcessing(false);
+    // });
   };
 
   const checkStatus = async (token) => {
