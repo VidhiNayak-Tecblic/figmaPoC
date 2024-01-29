@@ -12,7 +12,7 @@ export default function FigmaLink() {
 
   const handleInputChange = (event) => {
     const link = event.target.value;
-    setFigmaLink(link); 
+    setFigmaLink(link);
     // Validate the link (you can customize this validation according to your needs)
     setIsValidLink(isValidFigmaLink(link));
   };
@@ -42,7 +42,7 @@ export default function FigmaLink() {
           <h4 className="text-5xl mt-10 text-black-100 font-poppins font-semibold">
             Design with us to unlock your creativity
           </h4>
-          <p className="mt-5 text-xl text-gray-100 font-poppins font-normal">
+          <p className="mt-5 text-xl text-gray-100/80 font-poppins font-normal">
             Access thousands of design resources to generate into HTML Code
           </p>
 
@@ -60,7 +60,7 @@ export default function FigmaLink() {
 
           <button
             onClick={handleGenerateCode}
-            className="mt-4 border font-poppins border-primary-600 w-full lg:w-80 rounded-lg py-2 text-white bg-primary font-semibold"
+            className="mt-4 border font-poppins border-primary-600 w-full lg:w-80 rounded-lg py-2 text-white bg-indigo-900 font-semibold"
           >
             Generate Code
           </button>

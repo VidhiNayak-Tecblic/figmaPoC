@@ -1,14 +1,13 @@
 import Image from 'next/image';
 import React from 'react';
-import logo from '~/assets/images/logo.svg';
+import logo from '~/assets/images/canvas-logo.svg';
 
 function Header() {
   return (
     <div className="flex justify-center  md:justify-start">
-      <Image src={logo} alt="logo" className="w-32 sm:32 md:36 lg:w-40 xl:w-44" />
+      <Image src={logo} alt="logo" className="w-24 sm:24 md:24 lg:w-28 xl:w-28" />
     </div>
   );
 }
 
 export default Header;
- 
