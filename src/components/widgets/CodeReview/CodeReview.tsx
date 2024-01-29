@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import Header from '../Header';
 import Image from 'next/image';
 import eye from '~/assets/images/eye.svg';
-import code from '~/assets/images/code.svg'; 
+import code from '~/assets/images/code.svg';
 import codeContent from '~/assets/images/codeContent.svg';
 import download from '~/assets/images/download.svg';
 import service1 from '~/assets/images/service1.svg';
@@ -156,7 +156,7 @@ export default function CodeReview() {
       <ToastContainer />
       <div className="mx-0 my-0 md:mx-12 lg:mx-16 md:my-6 lg:my-10 h-vh">
         <Header />
-        <div className="relative">
+        <div className="relative mt-4 ">
           <div className="absolute top-0 left-0 h-10 w-full bg-[url('../../assets/images/bgCode.svg')] bg-cover bg-center bg-white dark:bg-gray-800 "></div>
           <div className="relative text-white pl-10 font-bold py-2">Code Review</div>
         </div>
@@ -187,7 +187,7 @@ export default function CodeReview() {
               <div>
                 <button
                   onClick={() => downloadCode(codeContent, 'code.js')}
-                  className="bg-primary  flex justify-center gap-2 text-white rounded-xl px-2 py-2 "
+                  className="bg-indigo-900  flex justify-center gap-2 text-white rounded-xl px-2 py-2 "
                 >
                   {/* onClick={downloadImage} */}
                   <Image src={download} alt={download} />

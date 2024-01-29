@@ -8,9 +8,12 @@ const config: Config = {
         gray: {
           100: '#666666',
         },
-        primary: '#515A6E',
+        // primary: '#515A6E',
         black: {
           100: '#111111',
+        },
+        indigo: {
+          900: '#000000',
         },
       },
       fontFamily: {

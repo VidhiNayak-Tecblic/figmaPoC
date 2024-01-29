@@ -5,7 +5,7 @@ import uploadMan from '~/assets/images/uploadMan.svg';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Image from 'next/image';
-import right from '~/assets/images/right.svg'; 
+import right from '~/assets/images/right.svg';
 import wrong from '~/assets/images/wrong.svg';
 
 export default function AnimationPutDownFail() {
@@ -51,7 +51,7 @@ export default function AnimationPutDownFail() {
           <div className="flex justify-between mx-20 mt-4 ">
             <p className="">Technical Jargon 1</p> <Image src={wrong} alt={wrong} />
           </div>
-          <button className="bg-primary w-full text-white rounded-xl my-10 py-2" onClick={showToast}>
+          <button className="bg-indigo-900 w-full text-white rounded-xl my-10 py-2" onClick={showToast}>
             Retry
           </button>
         </div>
