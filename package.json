@@ -15,7 +15,6 @@
     "clean": "rimraf node_modules/ && rimraf package-lock.json yarn.lock && yarn && yarn start"
   },
   "dependencies": {
-    "@monaco-editor/react": "^4.6.0",
     "@tabler/icons-react": "^2.42.0",
     "axios": "^1.6.6",
     "codemirror": "^6.0.1",
